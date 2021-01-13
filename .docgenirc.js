@@ -66,6 +66,7 @@ module.exports = {
         {
             name: 'ngx-gantt',
             rootDir: './example/src/app/configuration',
+            exclude:[],
             categories: [
                 {
                     id: 'config',
