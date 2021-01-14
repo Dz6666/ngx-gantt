@@ -2,7 +2,7 @@ module.exports = {
     $schema: 'node_modules/@docgeni/cli/cli.schema.json',
     baseHref: '/',
     heads: [],
-    mode: 'site',
+    mode: 'full',
     title: 'NgxGantt',
     siteProjectName: 'example',
     output: 'dist/site',
