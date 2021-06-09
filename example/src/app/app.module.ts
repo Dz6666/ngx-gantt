@@ -10,9 +10,16 @@ import { AppGanttRangeExampleComponent } from './gantt-range/gantt-range.compone
 import { EXAMPLE_MODULES, DOCGENI_SITE_PROVIDERS } from './content/index';
 import { DocgeniTemplateModule } from '@docgeni/template';
 import { BrowserModule } from '@angular/platform-browser';
+import { AppGanttFlatComponent } from './gantt-flat/component/flat.component';
 
 @NgModule({
-    declarations: [AppComponent, AppGanttExampleComponent, AppGanttFlatExampleComponent, AppGanttRangeExampleComponent],
+    declarations: [
+        AppComponent,
+        AppGanttExampleComponent,
+        AppGanttFlatExampleComponent,
+        AppGanttRangeExampleComponent,
+        AppGanttFlatComponent
+    ],
     imports: [
         BrowserModule,
         CommonModule,
