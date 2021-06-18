@@ -1,12 +1,10 @@
 module.exports = {
-    $schema: 'node_modules/@docgeni/cli/cli.schema.json',
-    baseHref: '/',
-    heads: [],
     mode: 'full',
     title: 'NgxGantt',
     siteProjectName: 'example',
-    output: 'dist/site',
+    outputDir: 'dist/site',
     repoUrl: 'https://github.com/worktile/ngx-gantt',
+    defaultLocale: 'zh-cn',
     navs: [
         null,
         {
@@ -66,7 +64,7 @@ module.exports = {
         {
             name: 'ngx-gantt',
             rootDir: './example/src/app/configuration',
-            exclude:[],
+            exclude: [],
             categories: [
                 {
                     id: 'config',
